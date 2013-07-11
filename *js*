@@ -1,0 +1,20 @@
+> var fs = require('fs'); var program = require('commander'); var cheerio = require('cheerio'); var HTMLFILE_DEFAULT = "index.html"; var CHECKSFILE_DEFAULT = "checks.json"; var restler = require('restler'); var URL_DEFAULT = "http://arcane-waters-3841.herokuapp.com/"; 
+> restler
+{ Request: [Function: Request],
+  Service: [Function: Service],
+  request: [Function: request],
+  service: [Function: service],
+  get: [Function: get],
+  patch: [Function: patch],
+  post: [Function: post],
+  put: [Function: put],
+  del: [Function: del],
+  head: [Function: head],
+  json: [Function: json],
+  postJson: [Function: postJson],
+  parsers: 
+   { auto: { [Function] matchers: [Object] },
+     json: [Function] },
+  file: [Function],
+  data: [Function] }
+> 

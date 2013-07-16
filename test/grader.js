@@ -57,6 +57,7 @@ var checkHtmlFile = function(htmlfile, checksfile) {
 };
 
 var checkUrl = function(url, checksfile){
+    console.log(url);
     restler.get(url).on('complete', function(result) {
 	if(result instanceof Error){
 console.log("Failed downloading html from " + url);
